@@ -13,4 +13,10 @@ public class MessageController {
     public String msg() {
         return "This is Test message";
     }
+
+    // http://localhost:9090/
+    @GetMapping("/message2")
+    public String msg2() {
+        return "This is 2nd Test message";
+    }
 }
